@@ -1,0 +1,26 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/idet8127/public_html/test/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about.php $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
+    - /bin/cp functions.php $DEPLOYPATH
+    - /bin/cp home.php $DEPLOYPATH
+    - /bin/cp login.php $DEPLOYPATH
+    - /bin/cp logout.php $DEPLOYPATH
+    - /bin/cp particles.js $DEPLOYPATH
+    - /bin/cp particles.min.js $DEPLOYPATH
+    - /bin/cp portfolio.php $DEPLOYPATH
+    - /bin/cp register.php $DEPLOYPATH
+    - /bin/cp tilt.jquery.js $DEPLOYPATH
+    - /bin/cp vanilla-tilt.js $DEPLOYPATH
+    - /bin/cp -R 360file $DEPLOYPATH
+    - /bin/cp -R 360file_honda $DEPLOYPATH
+    - /bin/cp -R activation $DEPLOYPATH
+    - /bin/cp -R contact $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R exhibition $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp -R streaming $DEPLOYPATH
