@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: #161623; */
+    min-height: 100vh;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.custom-nav .navbar-brand img {
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    transition: width 0.5s, height 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.custom-nav .navbar-brand img:hover {
+    -webkit-transform: scaleY(1.5) scaleX(1.5);
+    transform: scaleY(1.5) scaleX(1.5);
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    color: rgb(14, 14, 14);
+    font-weight: 500;
+    margin-left: 2.5em;
+    text-shadow: rgba(0, 0, 0, 0.637);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #25CCF7;
+    border: 0px solid #25CCF7;
+    border-radius: 2em;
+    background-color: transparent;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 2em;
+    border: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
+    color: white;
+    background-color: #25CCF7;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-nav {
+        margin-top: -1em;
+    }
+}

@@ -1,0 +1,28 @@
+.slider h3,
+.slider h5,
+.client h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.container h4,
+.container h5 {
+    font-size: 2.5em;
+}
+
+.parallax-container {
+    height: 240%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.client img {
+    max-width: 100px;
+    /* filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); */
+}
+
+section {
+    padding: 20px 0;
+}

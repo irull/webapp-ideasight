@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+            function saveData(){
+        	var input = document.getElementById("saveNama").value;
+		localStorage.setItem("Nama", input);
+        	var input = document.getElementById("saveEmail").value;
+		localStorage.setItem("Email", input);
+        	var input = document.getElementById("saveTelp").value;
+		localStorage.setItem("Telp", input);
+            }
+</script>
+</head>
+	</body>
+    <table border="0" style="center"> 
+    <tr>
+		<td>Nama</td>
+        <td>:</td>
+		<td><input type='text' name="Nama" id="saveNama"></td>
+    </tr>
+    <tr>
+		<td>Email</td>
+        <td>:</td>
+		<td><input type='text' name="Email" id="saveEmail"></td>
+    </tr>
+    <tr>
+		<td>No.Telp</td>
+        <td>:</td>
+		<td><input type='text' name="No.Telp" id="saveTelp"><td>
+    </tr>
+    <tr>
+		<td><button onclick="saveData()" type="button">Save</button>
+	</body>
+</html>

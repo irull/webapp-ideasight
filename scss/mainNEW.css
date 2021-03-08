@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../img/bg1.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 80vmax;
+  opacity: .9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.custom-nav .navbar-brand img {
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+  -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+  transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+  transition: width 0.5s, height 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.custom-nav .navbar-brand img:hover {
+  -webkit-transform: scaleY(1.5) scaleX(1.5);
+          transform: scaleY(1.5) scaleX(1.5);
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 500;
+  margin-left: 2.5em;
+  text-shadow: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #25CCF7;
+  border: 1px solid #25CCF7;
+  border-radius: 2em;
+  background-color: transparent;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
+  color: white;
+  background-color: #25CCF7;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+.custom-section {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  position: relative;
+  z-index: 1000;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #e74c3c;
+  line-height: 1;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #393c43;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-section p {
+  color: #393c43;
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+}
+
+.custom-section a {
+  margin-top: 2em;
+  display: inline-block;
+  color: white;
+  background-color: #e74c3c;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.custom-section a:hover {
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  background-color: transparent;
+}
+
+section {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+}
+
+.section1 {
+  position: relative;
+  background: rgba(63, 81, 181, 0.9) url(/img/bgwork.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.section2 img,
+.section3 img,
+.section4 img,
+.section5 img {
+  max-height: 400px;
+  border-radius: 0.5em;
+}
+
+h1 {
+  color: #fff;
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 30px;
+}
+
+hr {
+  height: 3px;
+  background-color: blue;
+  border: none;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.custom-aos a {
+  margin-top: 2em;
+  display: inline-block;
+  color: white;
+  background-color: #e74c3c;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+  background-color: rgba(180, 179, 179, 0.774);
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #e74c3c;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

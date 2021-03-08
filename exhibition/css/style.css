@@ -1,0 +1,98 @@
+.slider h3,
+.slider h5,
+.client h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.container h4,
+.container h5 {
+    font-size: 2.5em;
+}
+
+.parallax-container {
+    margin-top: 5px;
+    height: 230px;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.client img {
+    max-width: 100px;
+    /* filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); */
+}
+
+section {
+    padding: 20px 0;
+}
+
+
+section {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section2 img,
+.section3 img,
+.section4 img,
+.section5 img,
+.section6 img,
+.section7 img,
+.section8 img,
+.section9 img {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 20px
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.section8,
+.section9 {
+    background-color: #dfdfdf;
+}
+
+
+
+/* .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #ff6600;
+    text-align: center;
+} */

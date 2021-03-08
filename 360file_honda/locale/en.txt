@@ -1,0 +1,69 @@
+#: locale=en
+
+## Tour
+
+### Description
+tour.description = FIRST PAGE
+
+### Title
+tour.name = HONDA DEMO
+
+## Skin
+
+### Button
+Button_5D867B34_7CE5_B2BB_41D0_58C31E0ECD33.label = GO TO LINK
+Button_5E5ABE0D_7CEC_B265_41DD_0EC012830DAE.label = GO TO LINK
+Button_5EB7EFF2_7CEC_F1BF_41A6_9F0802E61B68.label = GO TO LINK
+Button_5F564EB1_7CEC_73BD_41D8_089121107DCE.label = GO TO LINK
+Button_C5A7E1D9_E349_B480_41D1_F3C1D85B307F.label = B U Y
+Button_C5EC7BB9_E34A_B481_41E5_35754C47BDD6.label = B U Y
+Button_C65CD30F_E35E_D581_41DD_B5E194F6568D.label = B U Y
+Button_CBB9E4DF_DDAF_46FC_41D6_32E8CEDBA2F1.label = C L I C K   H E R E   F O R   B E G I N
+Button_D03E53B4_E2CA_D487_41C9_E91F3C81FFE7.label = PLAY
+Button_D794B1DC_E2C9_D480_41E2_B44B8AB3476A.label = PLAY
+Button_F44673B8_E341_4295_41C5_61DDE54E244B.label = JOIN
+Button_F450E7F4_E341_429D_41D8_18B7CD220506.label = JOIN
+Button_FB627BE4_E340_C2BD_41E5_12DBD0A3B55D.label = JOIN
+
+### Dropdown
+DropDown_97CCCEB7_8E29_674A_41DA_107DAF107D49.label = search locations...
+
+### Multiline Text
+HTMLText_D6486875_E341_4D9E_41C2_8E33B3B27AE2.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;line-height:1"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:31px;"><B>360 CONCERT</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;line-height:1"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#3399ff;font-size:24px;"><B><I>Shawn Mendes</I></B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:12px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;line-height:1"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:Tahoma, Geneva, sans-serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </SPAN></SPAN></DIV><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;line-height:1"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:Tahoma, Geneva, sans-serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </SPAN></SPAN></DIV></div>
+
+### Label
+Label_6452647C_7C24_F6AB_41BB_E96F8384CD55.text = Who we are . . .
+Label_66094390_7C2D_B27B_41D3_E9000E94D83F.text = Have Fun with Online Games by AGATE
+Label_67D44851_7C1B_DEFD_41CA_44287122BBEE.text = Click and Drag to  Rotate - Scroll Mouse for Zoom in/Out
+Label_830B1050_8E2F_7BC7_41DC_68EEE35E67A9.text = NEXT
+Label_92D0598F_854A_0AB5_41D1_F5F436E46F59.text = Save Data and Click Next Button
+Label_D09CE489_E2CA_FC81_41B5_1371802A359A.text = we'll change the object, background and sound
+Label_ECA2591E_E341_4F8D_41E3_3BAB88D49FDF.text = we'll change the object, background and sound
+Label_F31558E2_E343_4EB5_41DE_3AAA8E7F4CF8.text = Have Fun with Online Games by AGATE
+
+## Media
+
+### Title
+panorama_C733BCD9_DE30_5AAF_41CB_9CE1CF62A460.label = OPENING & REGISTRASI
+panorama_C7E88706_DE30_F7A5_41D7_F4A100450E59.label = HOME
+video_EDD5DCED_E14B_4C81_41D1_D11BC472EEDE.label = Button REGISTER
+video_EE0F8B78_E15B_D580_41C5_049663039B49.label = BUTTON THE MARKET
+video_EE12AF4F_E149_4D81_41E9_7B0459598F02.label = Button Landmark
+video_EEA37671_E15B_5F80_41D0_9B442F3173FD.label = Button the Garage
+video_EEB52FB3_E15B_4C81_41E1_85E10E5CF0DB.label = BUTTON THE BACKYARD
+video_EEBD9FF3_E1B7_4C80_41E9_C35F358ACD69.label = Button JOIN THE
+video_EFE0C0B8_E17B_F48F_41EB_9CE39012E748.label = Button Rolling Door
+
+## Action
+
+### URL
+LinkBehaviour_D05D0B14_E3C1_439D_41D5_DDDA8873113E.source = https://web.facebook.com/welovehonda/
+LinkBehaviour_D05D1B13_E3C1_439B_41E5_0C06CC229D32.source = https://www.tiktok.com/@welovehonda?_d=dc9c78932h6704&language=en&sec_uid=MS4wLjABAAAAbDxq-cPSQcH9S4pfcjINmGE5PfGHnzkffpcMmu8srd5Ey5G6ByvfpXyeSh8iY0FH&share_author_id=6789146940715172865&u_code=dai92ca60dlk14&utm_source=copy&app=tiktok&iid=6824535525517444866&utm_campaign=client_share&utm_medium=ios&tt_from=copy&user_id=6789146940715172865&source=h5_t
+LinkBehaviour_D05EAB13_E3C1_439B_41EA_C96F40161B20.source = https://www.youtube.com/user/welovehondaID/videos?view_as=subscriber
+LinkBehaviour_D05ECB13_E3C1_439B_41DB_B2ED3B505D39.source = https://www.astra-honda.com/
+LinkBehaviour_D05EFB13_E3C1_439B_41E4_E18643671CDA.source = https://twitter.com/welovehonda
+LinkBehaviour_D4CF7801_E341_4D76_41B9_E6EDCD09C812.source = https://www.astra-honda.com/contact
+PopupWebFrameBehaviour_AEFA21F9_A1D1_FBB9_41E1_B41C53EA5140.url = https://digiv.co.id/wp/#
+PopupWebFrameBehaviour_AEFA31F8_A1D1_FBC7_41D2_265EBA836F1F.url = https://digiv.co.id/wp/#
+PopupWebFrameBehaviour_AEFA41F8_A1D1_FBC7_41D0_EDC41FBECB78.url = https://digiv.co.id/wp/#
+PopupWebFrameBehaviour_AEFA81F8_A1D1_FBC7_41CC_EF2C82981DC8.url = https://digiv.co.id/wp/#
