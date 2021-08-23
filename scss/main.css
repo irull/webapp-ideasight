@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg1.jpg);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 80vmax;
-  opacity: .9;
+  opacity: 0.9;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,8 +39,8 @@ body {
 }
 
 .custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: #25CCF7;
-  border: 1px solid #25CCF7;
+  color: #25ccf7;
+  border: 0 solid #25ccf7;
   border-radius: 2em;
   background-color: transparent;
 }
@@ -56,7 +56,7 @@ body {
 
 .custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
   color: white;
-  background-color: #25CCF7;
+  background-color: #25ccf7;
 }
 
 @media screen and (max-width: 992px) {
@@ -66,7 +66,7 @@ body {
 }
 
 .custom-section {
-  margin-top: 10em;
+  margin-top: 9em;
   margin-bottom: 10em;
 }
 
@@ -76,6 +76,9 @@ body {
   color: #e74c3c;
   /* white-space: nowrap; */
   line-height: 1;
+}
+.custom-section h2 .idea {
+  color: #25ccf7;
 }
 
 .custom-section h3 {
@@ -91,9 +94,12 @@ body {
   font-size: 1.2rem;
   margin-top: 1.5em;
 }
+.custom-section p b {
+  color: #e74c3c;
+}
 
 .custom-section a {
-  margin-top: 2em;
+  margin-top: 1em;
   display: inline-block;
   color: white;
   background-color: #e74c3c;
@@ -105,9 +111,8 @@ body {
 }
 
 .custom-section a:hover {
-  color: #e74c3c;
-  border: 1px solid #e74c3c;
-  background-color: transparent;
+  color: white;
+  background-color: #25ccf7;
 }
 
 section {
@@ -140,7 +145,7 @@ section {
 .section4 img,
 .section5 img {
   max-height: 400px;
-  border-radius: 0.5em;
+  border-radius: 1em;
 }
 
 h1 {
@@ -166,7 +171,7 @@ hr {
 }
 
 .custom-aos a {
-  margin-top: 2em;
+  margin-top: 1em;
   display: inline-block;
   color: white;
   background-color: #e74c3c;
@@ -175,6 +180,11 @@ hr {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.custom-aos a:hover {
+  color: white;
+  background-color: #25ccf7;
 }
 
 .section2,

@@ -1,10 +1,11 @@
 <?php
 //koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "registrasi");
+$conn = mysqli_connect("localhost", "root", "", "ideasight");
 
 //Query
 
 function query($query) {
+  global $conn;
     $result = mysqli_query($conn, $query);
 }
 
@@ -17,7 +18,7 @@ function registrasi($data) {
     $re_password = mysqli_real_escape_string($conn, $data["re_password"]);
 
     // cek apakah email sudah terdaftar atau belum di database
-    $result = mysqli_query($conn, "SELECT email FROM daftar_user WHERE email = '$email'");
+    $result = mysqli_query($conn, "SELECT email FROM register WHERE email = '$email'");
     if( mysqli_fetch_assoc($result)){
       echo "<script>
               alert('Email sudah terdaftar!')

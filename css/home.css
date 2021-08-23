@@ -1,31 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    /* background: #161623; */
+  background: #eeeaea;
 }
 
 #particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
-header {
+/* header {
     position: absolute;
     top: 0;
     left: 0;
@@ -91,85 +79,81 @@ body::after {
     height: 100%;
     background: linear-gradient(#8e44ad, #e91e63);
     clip-path: circle(10% at 10% 10%);
+} */
+
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  max-width: 10000px;
+  max-height: 300px;
+  flex-wrap: wrap;
+  z-index: 1;
 }
 
-
-.container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 10000px;
-    max-height: 300px;
-    flex-wrap: wrap;
-    z-index: 1;
+.box .card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(71, 71, 71, 0.027);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
-.container .card {
-    position: relative;
-    width: 250px;
-    height: 350px;
-    margin: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    background: rgba(71, 71, 71, 0.027);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
+.box .card .content {
+  padding: 30px;
+  text-align: center;
+  transform: translateY(30px);
+  opacity: 1;
+  transition: 0.5s;
 }
 
-.container .card .content {
-    padding: 30px;
-    text-align: center;
-    transform: translateY(30px);
-    opacity: 1;
-    transition: 0.5s;
+.box .card:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
-.container .card:hover .content {
-    transform: translateY(0px);
-    opacity: 1;
+.box .card .content h2 {
+  position: center;
+  top: -10px;
+  /* right: 50px; */
+  font-size: 2.5em;
+  color: rgba(61, 61, 61, 0.26);
+  pointer-events: none;
 }
 
-.container .card .content h2 {
-    position: center;
-    top: -10px;
-    /* right: 50px; */
-    font-size: 2.5em;
-    color: rgba(61, 61, 61, 0.26);
-    pointer-events: none;
+.box .card .content h3 {
+  font-size: 1.5em;
+  color: rgb(37, 37, 37);
+  z-index: 1;
 }
 
-.container .card .content h3 {
-    font-size: 1.5em;
-    color: rgb(37, 37, 37);
-    z-index: 1;
-}
-
-.container .card .content .p .img {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    ;
-
-
-
-    /* font-size: 0.9em;
+.box .card .content .p .img {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  /* font-size: 0.9em;
     color: #fff;
     font-weight: 300; */
 }
 
-.container .card .content a {
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: rgb(248, 173, 10);
-    color: black;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    box-shadow: 0 5px 15px rgba(235, 184, 18, 0.3);
+.box .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: rgb(248, 173, 10);
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(235, 184, 18, 0.3);
 }

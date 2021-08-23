@@ -13,7 +13,7 @@ if( isset($_POST["login"])) {
     $email = $_POST["email"];
     $password =$_POST["password"];
 
-   $result = mysqli_query($conn, "SELECT * FROM daftar_user WHERE email ='$email'");
+   $result = mysqli_query($conn, "SELECT * FROM register WHERE email ='$email'");
 
     //cek email
     if( mysqli_num_rows($result) ===1 ) {
