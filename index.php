@@ -39,7 +39,7 @@
           bg-transparent
         "
       >
-        <a class="navbar-brand" href="home">
+        <a class="navbar-brand" href="/">
           <img src="img/logo.png" alt="Ideasight" />
           <!-- <span>Ideasight</span> -->
         </a>
@@ -68,7 +68,7 @@
               <a class="nav-link" aria-current="page" href="about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact/index"
+              <a class="nav-link" aria-current="page" href="contact"
                 >Contact</a
               >
             </li>
@@ -122,7 +122,7 @@
                 Create the unique concept with the digital innovation to answer
                 consumers needed.
               </p>
-              <a data-aos="slide-down" href="360file/index.php">Learn More</a>
+              <a data-aos="slide-down" href="360file/">Learn More</a>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@
               <p data-aos="slide-left">
                 Align between brand and consumers is the key to great concept.
               </p>
-              <a data-aos="zoom-in-down" href="streaming/streaming"
+              <a data-aos="zoom-in-down" href="streaming"
                 >Learn More</a
               >
             </div>
@@ -173,7 +173,7 @@
                 Concept and conduct on ground activity with the unique idea and
                 excellent execution.
               </p>
-              <a data-aos="slide-down" href="activation/activation"
+              <a data-aos="slide-down" href="activation"
                 >Learn More</a
               >
             </div>
@@ -193,7 +193,7 @@
                 Builders, and contractors to make complex designs come true. We
                 committed for excellence while keeping.
               </p>
-              <a data-aos="zoom-in-down" href="exhibition/exhibition"
+              <a data-aos="zoom-in-down" href="exhibition"
                 >Learn More</a
               >
             </div>

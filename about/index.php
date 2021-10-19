@@ -28,12 +28,12 @@ if(!isset($_SESSION["login"])) {
             <nav class="deep-orange">
               <div class="container">
                 <div class="nav-wrapper">
-                  <a href="../" class="brand-logo"><img src="img/logo.png" width="110" height="70"></a>
+                  <a href="../index.html" class="brand-logo"><img src="img/logo.png" width="110" height="70"></a>
                   <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down">
                     <li><a href="../home">Home</a></li>
                     <li><a href="../portfolio">Portfolio</a></li>
-                    <li><a href="../about">About</a></li>
+                    <li><a href="../logout">Logout</a></li>
                   </ul>
                 </div>
               </div>
@@ -42,30 +42,31 @@ if(!isset($_SESSION["login"])) {
           <ul class="sidenav" id="mobile-nav">
             <li><a href="../home.php">Home</a></li>
             <li><a href="../portfolio">Portfolio</a></li>
-            <li><a href="../about">About</a></li>
+            <li><a href="../logout">Logout</a></li>
           </ul>
 
         <!-- Paralax -->
         <div class="parallax-container">
-          <div class="parallax"><img src="img/head.jpg" height="500"></div>
+          <div class="parallax"><img src="img/header.png" height="900"></div>
         </div>
 
         <div class="container">
           <div class="row center">
-            <h3>Contact Us</h3>
-            <div class="col m6 s12 center">
-              <div class="card">
-                <!-- <i class="material-icons small">account_circle</i>
-                <h4>Contact Us</h4> -->
-                <img src="img/Contact1.png">
-              </div>
-            </div>
-            <div class="col m6 s12 center">
-              <div class="card">
-                <!-- <i class="material-icons small">account_circle</i>
-                <h4>Contact Us</h4> -->
-                <img src="img/contact2.png">
-              </div>
+            <h3>About Us</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col s12 m5">
+            <div class="card-panel teal">
+              <span class="white-text">
+                <h5>Why: Your Reason for Being</h5> <br> 
+                    1. One door for all services from planning to reporting include production <br>
+                    2. Full Services at all aspects on ground activity <br>
+                    3. High Quality Facilities and back-office support <br>
+                    4. Comprehensive Program Briefing: sent nationwide to achieve high standard of
+                    quality <br>
+                    5. Capability to carry out and execute daily activities of multiple brands simultaneously
+              </span>
             </div>
           </div>
         </div>

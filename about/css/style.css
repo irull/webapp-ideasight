@@ -17,3 +17,7 @@ main {
   max-width: 600px;
   height: auto;
 }
+
+.container span {
+  text-align: center;
+}

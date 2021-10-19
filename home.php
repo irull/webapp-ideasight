@@ -37,7 +37,7 @@ if(!isset($_SESSION["login"])) {
       style="background-color: #ff5722"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index">
           <img src="img/logo.png" alt="" width="70" class="my-0" />
         </a>
         <button

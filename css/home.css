@@ -150,7 +150,7 @@ body::after {
   display: inline-block;
   padding: 8px 20px;
   margin-top: 15px;
-  background: rgb(248, 173, 10);
+  background: #ff9d2d;
   color: black;
   border-radius: 20px;
   text-decoration: none;

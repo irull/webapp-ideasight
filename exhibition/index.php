@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["login"])) {
-    header("Location: login.php");
+    header("Location: ../login");
     exit;
 }
 
@@ -53,57 +53,41 @@ if(!isset($_SESSION["login"])) {
           <li>
             <img src="img/slider/1.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/2.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/3.jpg"> <!-- random image -->
             <div class="caption right-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/4.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/9.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/6.jpg"> <!-- random image -->
             <div class="caption right-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/7.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/8.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
         </ul>
@@ -115,22 +99,28 @@ if(!isset($_SESSION["login"])) {
         <div class="container client">
           <h3 class="center white-text">Our Clients</h3>
           <div class="row">
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
               <img src="img/logo/isuzu.png">
             </div>
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
               <img src="img/logo/pertamina.png">
             </div>
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
+              <img src="img/logo/pln.jpg">
+            </div>
+            <div class="col m3 s6 center">
+              <img src="img/logo/adira.png">
+            </div>
+            <div class="col m3 s6 center">
               <img src="img/logo/kem.png">
             </div>
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
               <img src="img/logo/samsung.png">
             </div>
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
               <img src="img/logo/sgm.png">
             </div>
-            <div class="col m2 s6 center">
+            <div class="col m3 s6 center">
               <img src="img/logo/morinaga.png">
             </div>
           </div>
@@ -141,6 +131,38 @@ if(!isset($_SESSION["login"])) {
         <h2>Exhibition</h2>
       </div>
 
+  <section>
+    <section class="section2">
+      <div class="container">
+        <div class="row">
+          <div class="col m5 s12 text">
+            <hr>
+            <h2>PLN Expo 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus at, eum dolores accusantium magnam impedit omnis debitis necessitatibus nostrum quam, optio cum veniam fuga autem excepturi iure, cumque dignissimos?</p>
+          </div>
+          <div class="col m7 s12">
+            <img class="responsive-img" src="img/slider/pln.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>   
+  <section>
+    <section class="section2">
+      <div class="container">
+        <div class="row">
+          <div class="col m5 s12 text">
+            <hr>
+            <h2>ADIRA Virtual Expo 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus at, eum dolores accusantium magnam impedit omnis debitis necessitatibus nostrum quam, optio cum veniam fuga autem excepturi iure, cumque dignissimos?</p>
+          </div>
+          <div class="col m7 s12">
+            <img class="responsive-img" src="img/slider/adira.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>   
   <section>
     <section class="section2">
       <div class="container">
