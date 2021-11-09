@@ -97,7 +97,7 @@ if(!isset($_SESSION["login"])) {
           <h2>About</h2>
           <h3>About</h3>
           <img src="img/abaout.png" alt="" />
-          <a href="about.php">Read More</a>
+          <a href="about">Read More</a>
         </div>
       </div>
     </div>
