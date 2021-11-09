@@ -28,6 +28,7 @@ if(!isset($_SESSION["login"])) {
     />
     <link rel="stylesheet" href="css/home.css" />
 
+    <link rel="icon" href="img/is.png" />
     <title>Home | Ideasight</title>
   </head>
   <body>
