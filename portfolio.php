@@ -29,6 +29,7 @@
     />
     <!-- <link rel="stylesheet" href="css/portfolio.css" /> -->
 
+    <link rel="icon" href="img/is.png" />
     <title>Home | Ideasight</title>
   </head>
   <body>
