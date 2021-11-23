@@ -30,7 +30,7 @@
     <!-- <link rel="stylesheet" href="css/portfolio.css" /> -->
 
     <link rel="icon" href="img/is.png" />
-    <title>Home | Ideasight</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <div id="particles-js"></div>

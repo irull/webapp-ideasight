@@ -21,7 +21,7 @@ if(!isset($_SESSION["login"])) {
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" href="../img/is.png" />
-      <title>Contact</title>
+      <title>About</title>
     </head>
 
     <body>
